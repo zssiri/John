@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url('fonts/Heebo-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: Heebo;
+    src: url('fonts/Heebo-Thin.ttf');
+    font-weight: 100;
+}
+@font-face {
+    font-family: Heebo;
+    src: url('fonts/Heebo-ExtraLight.ttf');
+    font-weight: 200;
+}
+@font-face {
+    font-family: Heebo;
+    src: url('fonts/Heebo-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: Heebo;
+    src: url('fonts/Heebo-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: Heebo;
+    src: url('fonts/Heebo-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: Heebo;
+    src: url('fonts/Heebo-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: Heebo;
+    src: url('fonts/Heebo-ExtraBold.ttf');
+    font-weight: 800;
+}
+@font-face {
+    font-family: Heebo;
+    src: url('fonts/Heebo-Black.ttf');
+    font-weight: 900;
+}
+
+
+body {
+    font-family: Heebo;
+}
+
+.header {
+    padding: 28px 60px;
+}
+
+.header__nav {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    justify-content: end;
+}
+
+.header__link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.first {
+    padding-top: 127px;
+    padding-bottom: 68px;
+}
+
+.first__container {
+    max-width: 856px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first__discription {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    max-width: 500px;
+}
+
+.first__logo {
+    font-size: 44px;
+    line-height: 120%;
+    font-weight: bold;
+    color: #212430
+}
+
+.first_text {
+    color: #212430;
+}
+
+.first__button {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #FF6464;
+    border-radius: 2px;
+    padding: 12px 20px;
+}
+
+.first__image {
+    border-radius: 50%;
+    height: 243px;
+    width: 243px;
+    box-shadow: -5px 13px 0 #EDF7FA;
+}
+
+
